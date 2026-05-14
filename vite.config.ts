@@ -16,4 +16,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
+  server: {
+    allowedHosts: ['tattle-sprain-drank.ngrok-free.dev']
+  }
 });
